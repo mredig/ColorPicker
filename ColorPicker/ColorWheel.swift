@@ -24,11 +24,13 @@ import UIKit
 
 
 	override func draw(_ rect: CGRect) {
-		for y in stride(from: 0, to: bounds.maxY, by: 1) {
-			for x in stride(from: 0, to: bounds.maxX, by: 1) {
+		let scaleFactor: CGFloat = 1.0 / UIScreen.main.scale
+
+		for y in stride(from: 0, to: bounds.maxY, by: scaleFactor) {
+			for x in stride(from: 0, to: bounds.maxX, by: scaleFactor) {
 				let color = self.color(for: CGPoint(x: x, y: y))
-				let pixel = CGRect(x: x, y: y, width: 1, height: 1)
-				color.set()
+				let pixel = CGRect(x: x, y: y, width: scaleFactor, height: scaleFactor)
+				color.setFill()
 				UIRectFill(pixel)
 			}
 		}
