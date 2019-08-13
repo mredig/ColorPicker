@@ -13,6 +13,7 @@
 		3339E4D9228B1E22002AD6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3339E4D8228B1E22002AD6E2 /* Assets.xcassets */; };
 		3339E4DC228B1E22002AD6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3339E4DA228B1E22002AD6E2 /* LaunchScreen.storyboard */; };
 		3339E4E4228B1EE7002AD6E2 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339E4E3228B1EE7002AD6E2 /* ColorWheel.swift */; };
+		3339E4E6228B22F1002AD6E2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339E4E5228B22F1002AD6E2 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3339E4DB228B1E22002AD6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3339E4DD228B1E22002AD6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3339E4E3228B1EE7002AD6E2 /* ColorWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		3339E4E5228B22F1002AD6E2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				3339E4D1228B1E20002AD6E2 /* AppDelegate.swift */,
 				3339E4D3228B1E20002AD6E2 /* ViewController.swift */,
-				3339E4D5228B1E20002AD6E2 /* Main.storyboard */,
 				3339E4E3228B1EE7002AD6E2 /* ColorWheel.swift */,
+				3339E4E5228B22F1002AD6E2 /* Color.swift */,
+				3339E4D5228B1E20002AD6E2 /* Main.storyboard */,
 				3339E4D8228B1E22002AD6E2 /* Assets.xcassets */,
 				3339E4DA228B1E22002AD6E2 /* LaunchScreen.storyboard */,
 				3339E4DD228B1E22002AD6E2 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3339E4D4228B1E20002AD6E2 /* ViewController.swift in Sources */,
+				3339E4E6228B22F1002AD6E2 /* Color.swift in Sources */,
 				3339E4D2228B1E20002AD6E2 /* AppDelegate.swift in Sources */,
 				3339E4E4228B1EE7002AD6E2 /* ColorWheel.swift in Sources */,
 			);

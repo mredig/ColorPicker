@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var myWheel: ColorWheel!
+
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 	}
 
+	@IBAction func changeColor(_ sender: ColorWheel) {
+		view.backgroundColor = sender.color
+	}
 
 }
 
